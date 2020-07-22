@@ -117,3 +117,21 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2020-07-22 17:24:33.635
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 18:05:25.179
+!MESSAGE Preparing classpath changed notification project_management
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 18:05:25.180
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 18:05:25.197
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 18:05:25.210
+!MESSAGE buffering callback sts4.classpath.JRBfDbEv project_management false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 18:05:25.210
+!MESSAGE executing callback sts4.classpath.JRBfDbEv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 18:05:25.253
+!MESSAGE executing callback sts4.classpath.JRBfDbEv SUCCESS [done]
