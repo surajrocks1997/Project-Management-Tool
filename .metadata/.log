@@ -33,3 +33,87 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:24.969
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:24.971
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6c289070[org.springframework.tooling.boot.ls:1.15.0.202003180840(id=1229)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:24.977
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:25.098
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:26.468
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:26.469
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6c289070[org.springframework.tooling.boot.ls:1.15.0.202003180840(id=1229)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:26.470
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:30.999
+!MESSAGE Boot LS startup time from start to initialized: 4527ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.082
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JRBfDbEvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.083
+!MESSAGE Sorting projects...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.086
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.088
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.089
+!MESSAGE Sorting projects... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.090
+!MESSAGE inside synchronized Subscriptions
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.091
+!MESSAGE subscribing to classpath changes: sts4.classpath.JRBfDbEv isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.095
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.099
+!MESSAGE subsribers = {sts4.classpath.JRBfDbEv=Send Classpath Notifications(876)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.100
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.102
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.102
+!MESSAGE Preparing classpath changed notification project_management
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.103
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JRBfDbEv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.104
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.138
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.165
+!MESSAGE buffering callback sts4.classpath.JRBfDbEv project_management false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.167
+!MESSAGE executing callback sts4.classpath.JRBfDbEv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-22 17:16:31.235
+!MESSAGE executing callback sts4.classpath.JRBfDbEv SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 2 0 2020-07-22 17:17:13.797
+!MESSAGE The 'org.eclipse.mylyn.java.ui.javaAllCompletionProposalComputer' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.
+
+!ENTRY org.eclipse.ui 2 2 2020-07-22 17:24:33.635
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
