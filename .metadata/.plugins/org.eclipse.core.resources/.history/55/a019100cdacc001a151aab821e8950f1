@@ -111,6 +111,7 @@ public class ProjectTask {
 	public Backlog getBacklog() {
 		return backlog;
 	}
+
 	public void setBacklog(Backlog backlog) {
 		this.backlog = backlog;
 	}

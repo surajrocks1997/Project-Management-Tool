@@ -108,13 +108,8 @@ public class ProjectTask {
 	public void setProjectIdentifier(String projectIdentifier) {
 		this.projectIdentifier = projectIdentifier;
 	}
-	public Backlog getBacklog() {
-		return backlog;
-	}
-	public void setBacklog(Backlog backlog) {
-		this.backlog = backlog;
-	}
-
+	
+	
 	@PrePersist
 	protected void onCreate() {
 		this.create_At = new Date();
