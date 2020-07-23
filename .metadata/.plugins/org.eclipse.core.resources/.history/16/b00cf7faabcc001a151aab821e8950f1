@@ -41,6 +41,6 @@ public class ProjectController {
 	public ResponseEntity<?> getProjectById(@PathVariable(name = "projectId") String projectId){
 		Project project = projectService.findProjectByIdentifier(projectId);
 		
-		return new ResponseEntity<Project>(project, HttpStatus.OK);
+		return new ResponseEntity<Project>(project, HttpStatus.OK;)
 	}
 }
