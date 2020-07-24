@@ -50,16 +50,16 @@ public class ProjectTaskService {
 			return projectTaskRepository.save(projectTask);
 		} catch (Exception e) {
 			throw new ProjectNotFoundException("Project Not Found");
-		}	
-	}
-
-	public List<ProjectTask> findBacklogById(String id) {
-		
-		Project project = projectRepository.findByProjectIdentifier(id);
-		if(project == null) {
-			throw new ProjectNotFoundException("Project with ID '" + id + "' does not exists");
 		}
 		
-		return projectTaskRepository.findByProjectIdentifierOrderByPriority(id);
+		
+		
+	}
+
+	public List<ProjectTask> findBacklogById(String backlog_id) {
+		
+		Project project = projectRepository.findByProjectIdentifier(backlog_id);
+		
+		return projectTaskRepository.findByProjectIdentifierOrderByPriority(backlog_id);
 	}
 }

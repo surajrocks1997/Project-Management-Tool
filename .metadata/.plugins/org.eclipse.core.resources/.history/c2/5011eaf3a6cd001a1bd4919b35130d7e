@@ -57,7 +57,7 @@ public class ProjectTaskService {
 		
 		Project project = projectRepository.findByProjectIdentifier(id);
 		if(project == null) {
-			throw new ProjectNotFoundException("Project with ID '" + id + "' does not exists");
+			throw new ProjectNotFoundException("Project with ID " + id + " does not exists");
 		}
 		
 		return projectTaskRepository.findByProjectIdentifierOrderByPriority(id);

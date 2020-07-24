@@ -1,0 +1,6 @@
+package com.pjtmgmt.exceptions;
+
+public class ProjectNotFoundException {
+
+	
+}
