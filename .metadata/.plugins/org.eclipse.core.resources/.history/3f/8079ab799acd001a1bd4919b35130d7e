@@ -1,0 +1,30 @@
+package com.pjtmgmt.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.pjtmgmt.model.Backlog;
+import com.pjtmgmt.model.ProjectTask;
+import com.pjtmgmt.repositories.BacklogRepository;
+
+@Service
+public class ProjectTaskService {
+
+	@Autowired
+	private BacklogRepository backlogRepository;
+	
+	@Autowired
+	private ProjectTask projectTask;
+	
+	public ProjectTask addProjectTask(String projectIdentifier, ProjectTask projectTask) {
+		
+		Backlog backlog = backlogRepository.findByProjectIdentifier(projectIdentifier);
+		projectTask.setBacklog(backlog);
+		
+		Integer backlogSequence = backlog.getPTSequence();
+		backlogSequence++;
+		
+		projectTask.setProjectSequence(backlog.getProjectIdentifier() + "-" + backlogSequence);
+		
+	}
+}
