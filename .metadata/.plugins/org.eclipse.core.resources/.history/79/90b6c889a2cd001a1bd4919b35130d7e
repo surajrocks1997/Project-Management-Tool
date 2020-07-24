@@ -44,6 +44,7 @@ public class ProjectTaskService {
 	}
 
 	public List<ProjectTask> findBacklogById(String backlog_id) {
-		return projectTaskRepository.findByProjectIdentifierOrderByPriority(backlog_id);
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
